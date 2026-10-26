@@ -16,7 +16,7 @@ jobs:
         - name: "check sf cli version"
           run: sf --version
 
-        - name: "Install Salesforce Code Analyzera"
+        - name: "Install Salesforce Code Analyzeraa"
           run: |
             sf --help
             sf plugins install code-analyzer
