@@ -3,6 +3,7 @@ run-name: "Salesforce Pipeline Test Run"
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   setup-salesforce:
